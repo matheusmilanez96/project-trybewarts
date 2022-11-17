@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,32 +11,32 @@
     
 }
 
-.trybewarts-login{
+.trybewarts-login {
     display: flex;
     flex-direction: column;
     
 }
 
-main{
+main {
     display: flex;
 
 }
 
-#evaluation-form{
+#evaluation-form {
     display: flex;
     width: 675px;
     flex-direction: column;
 
 }
 
-.nome-sobrenome{
+.nome-sobrenome {
 display: flex;
 }
 
-.email-house{
+.email-house {
     display: flex;
 }
 
-#trybewarts-forms-logo{
+#trybewarts-forms-logo {
     height: 500px;
 }
