@@ -26,6 +26,15 @@ main{
     display: flex;
     width: 675px;
     flex-direction: column;
+
+}
+
+.nome-sobrenome{
+display: flex;
+}
+
+.email-house{
+    display: flex;
 }
 
 #trybewarts-forms-logo{
