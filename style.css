@@ -1,13 +1,32 @@
+/* stylelint-disable function-url-quotes */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(wallpaperflare.com_wallpaper.jpg);
+  background-size: cover;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.espaco {
+  height: 100px;
+}
+
+.trybewarts-header-logo {
+  height: 90px;
+}
+
+.trybewarts-header-title {
+  display: flex;
 }
 
 .trybewarts-login {
@@ -17,6 +36,7 @@
 
 main {
   display: flex;
+  justify-content: space-evenly;
 
 }
 
@@ -24,7 +44,7 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
-
+  background-color: rgba(49, 95, 95, 0.9);
 }
 
 .nome-sobrenome {
@@ -37,4 +57,10 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+.rodape {
+  display: flex;
+  background-color: rgba(50, 167, 145,);
+  justify-content: center;
 }

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
@@ -19,10 +21,12 @@
 
                 <label for="password"> <input class="password" name="password" type="password" placeholder="Senha"> </label>
 
-                <button class="login-button" name="entrar">Entrar</button>
+                <button class="login-button btn btn-success"  name="entrar">Entrar</button>
                 
         </form>
     </header>
+
+    <div class="espaco"></div>
 
     <main>
 
@@ -37,6 +41,7 @@
 
                 <label for="input-email"> <input id="input-email" name="email" type="email" placeholder="Email"> </label>
 
+                <label for="house">Casa :</label>
                 <select name="" id="house">
 
                     <option id="gitnoria-house" value="Gitnória">Gitnória</option>
@@ -109,7 +114,7 @@
             </div>
 
             <div>
-                <button type="submit" id="submit-btn" disabled >Enviar</button>
+                <button class="btn btn-success" type="submit" id="submit-btn" disabled >Enviar</button>
 
             </div>
 
@@ -120,7 +125,9 @@
 
     </main>
 
-    <footer>
+    <div class="espaco"></div>
+
+    <footer class="rodape" >
 
         <p>Direitos reservados à Trybewarts©</p>
 
